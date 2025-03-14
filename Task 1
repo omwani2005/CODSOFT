@@ -1,0 +1,170 @@
+This is basic Landing Page.
+
+# Code For HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Landing Page</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Services</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact</a>
+                <a href="#">Buy Now</a>
+            </nav>
+            <div class="contact">
+                <p>+91 123-456-7890</p>
+                <p>Email: designdigital@gmail.com</p>
+                <a class="btn" href="#">Request a Consult</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>We Are Creative</h2>
+        <h3>Creative Digital Agency</h3>
+        <p>Lorem Ipsum has been the industry standard dummy text since 1500.</p>
+        <div class="buttons">
+            <a class="btn" href="#">More Info</a>
+            <a class="btn" href="#">Request a Quote</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <h4>Launch Business</h4>
+            <p>Lorem Ipsum has been the industry standard dummy text.</p>
+        </div>
+        <div class="service">
+            <h4>Online Support Team</h4>
+            <p>Lorem Ipsum has been the industry standard dummy text.</p>
+        </div>
+        <div class="service">
+            <h4>Time Management</h4>
+            <p>Lorem Ipsum has been the industry standard dummy text.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <h3>About Us</h3>
+        <p>15 years, we passionate about achieving better results for our clients.</p>
+        <a class="btn" href="#">Read More</a>
+    </section>
+
+    <section class="our-services">
+        <h3>Our Services</h3>
+        <div class="service-item">
+            <h4>User Experience</h4>
+        </div>
+        <div class="service-item">
+            <h4>Creative Design</h4>
+        </div>
+        <div class="service-item">
+            <h4>Retina Ready</h4>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name</p>
+    </footer>
+</body>
+</html>
+
+
+
+# Code For CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 15px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.hero {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero h2, .hero h3 {
+    margin: 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.services, .about, .our-services {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services {
+    background-color: #f8f9fa;
+}
+
+.service {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+.about {
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+.service-item {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
