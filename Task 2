@@ -1,0 +1,257 @@
+This is Portfolio Website.
+
+# Code For HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OM Wani - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Om Wani</h1>
+            <p>Web Developer | Designer</p>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <div class="profile-image">
+            <img src="your-profile-image.jpg" alt="Your Profile">
+        </div>
+        <div class="profile-text">
+            <h2>About Me</h2>
+            <p>Passionate web developer with experience in front-end and back-end technologies. I love creating user-friendly and efficient websites. My goal is to build innovative solutions that make a positive impact.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Python</div>
+            <div class="skill">Git</div>
+            <div class="skill">UI/UX Design</div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1 Title</h3>
+            <p>A brief description of Project 1.</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2 Title</h3>
+            <p>A brief description of Project 2.</p>
+        </div>
+        </section>
+
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <a href="your-resume.pdf" class="resume-button" download>Download Resume</a>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +1 123 456 7890</p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+# Code For CSS
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #e0f7fa, #fff8e1); /* Light gradient background */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(to right, #64b5f6, #42a5f5); /* Blue gradient header */
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2em;
+    color: #e0f7fa;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.profile-image img {
+    width: 250px;
+    border-radius: 50%;
+    margin-right: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-text h2 {
+    margin-bottom: 25px;
+    color: #2196f3; /* Primary accent color */
+    font-size: 2.5em;
+}
+
+#skills {
+    background: linear-gradient(135deg, #fff3e0, #ffe0b2); /* Light orange gradient skills */
+    padding: 60px 0;
+}
+
+#skills h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff9800;
+    font-size: 2.5em;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill {
+    background-color: #ffcc80; /* Light orange skill badges */
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    color: #616161;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#projects {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9); /* Light green gradient projects */
+}
+
+#projects h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4caf50;
+    font-size: 2.5em;
+}
+
+.project {
+    margin-bottom: 40px;
+    border: 1px solid #c5e1a5;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.project h3{
+    color: #388e3c;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+#resume {
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0); /* Light pink gradient resume */
+    padding: 60px 0;
+    text-align: center;
+}
+
+#resume h2{
+    color: #e91e63;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.resume-button {
+    background-color: #e91e63;
+    color: white;
+    padding: 18px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h2{
+    color: #9c27b0;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#contact p{
+    font-size: 1.2em;
+    color: #555;
+}
+
+footer {
+    background: linear-gradient(to right, #37474f, #263238); /* Dark gray gradient footer */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image img {
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 200px;
+    }
+}
