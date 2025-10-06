@@ -1,2 +1,2 @@
 # CODSOFT
-This is repo is made at the time of CODSOFT Internship.
+This repo is made at the time of CODSOFT Internship.
